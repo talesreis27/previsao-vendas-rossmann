@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+.env
+.venv/
+venv/
+
+.DS_Store
+Thumbs.db
+
+# Kaggle raw data files
+data/raw/*.csv
+
+# Trained model files
+models/*.keras
+models/*.pkl
+models/sales_scaler
+
+# Personal/accidental files
+CV_*.docx
